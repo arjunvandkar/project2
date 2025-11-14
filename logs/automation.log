@@ -1,0 +1,195 @@
+
+2025-11-04 10:00:13 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 10:00:16 - INFO - Launching application...
+2025-11-04 10:00:16 - INFO - clicking on MyAccount--> Register
+2025-11-04 10:00:16 - INFO - Providing customer details for registration
+2025-11-04 10:06:28 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 10:06:32 - INFO - Launching application...
+2025-11-04 10:06:32 - INFO - clicking on MyAccount--> Register
+2025-11-04 10:06:33 - INFO - Providing customer details for registration
+2025-11-04 10:09:37 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 10:09:39 - INFO - Launching application...
+2025-11-04 10:09:39 - INFO - clicking on MyAccount--> Register
+2025-11-04 10:09:40 - INFO - Providing customer details for registration
+2025-11-04 10:10:00 - ERROR - Unexpected error during account registration.
+Traceback (most recent call last):
+  File "C:\Users\User\PyCharmMiscProject\pythonProject4\testCases\test_Accountregistration.py", line 37, in test_account_reg
+    assert "registration completed" in msg.lower()
+                                       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+
+
+2025-11-04 10:31:03 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 10:31:07 - INFO - Launching application...
+2025-11-04 10:31:08 - INFO - clicking on MyAccount--> Register
+2025-11-04 10:31:09 - INFO - Providing customer details for registration
+2025-11-04 10:31:12 - INFO - Account Registration test passed.
+2025-11-04 10:52:14 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 10:52:17 - INFO - Launching application...
+2025-11-04 10:52:17 - INFO - clicking on MyAccount--> Register
+2025-11-04 10:52:21 - INFO - Providing customer details for registration
+2025-11-04 10:52:26 - INFO - Account Registration test passed.
+2025-11-04 10:52:55 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 10:52:57 - INFO - Launching application...
+2025-11-04 10:52:57 - INFO - clicking on MyAccount--> Register
+2025-11-04 10:52:58 - INFO - Providing customer details for registration
+2025-11-04 10:53:02 - INFO - Account Registration test passed.
+2025-11-04 11:00:19 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 11:00:22 - INFO - Launching application...
+2025-11-04 11:00:22 - INFO - clicking on MyAccount--> Register
+2025-11-04 11:00:22 - INFO - Providing customer details for registration
+2025-11-04 11:00:24 - INFO - Account Registration test passed.
+2025-11-04 11:00:53 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 11:00:55 - INFO - Launching application...
+2025-11-04 11:00:55 - INFO - clicking on MyAccount--> Register
+2025-11-04 11:00:56 - INFO - Providing customer details for registration
+2025-11-04 11:00:58 - INFO - Account Registration test passed.
+2025-11-04 11:18:35 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 11:18:38 - INFO - Launching application...
+2025-11-04 11:18:38 - INFO - clicking on MyAccount--> Register
+2025-11-04 11:18:38 - INFO - Providing customer details for registration
+2025-11-04 11:18:41 - INFO - Account Registration test passed.
+2025-11-04 19:20:23 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 19:20:25 - INFO - Launching application...
+2025-11-04 19:20:26 - INFO - clicking on MyAccount--> Register
+2025-11-04 19:20:26 - INFO - Providing customer details for registration
+2025-11-04 19:20:29 - INFO - Account Registration test passed.
+2025-11-04 19:21:13 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 19:21:16 - INFO - Launching application...
+2025-11-04 19:21:16 - INFO - clicking on MyAccount--> Register
+2025-11-04 19:21:17 - INFO - Providing customer details for registration
+2025-11-04 19:21:19 - INFO - Account Registration test passed.
+2025-11-04 19:52:42 - INFO - ***Test_001_AccountRegistration started***
+2025-11-04 19:52:47 - INFO - Launching application...
+2025-11-04 19:52:47 - INFO - clicking on MyAccount--> Register
+2025-11-04 19:52:48 - INFO - Providing customer details for registration
+2025-11-04 19:52:50 - INFO - Account Registration test passed.
+2025-11-05 10:25:46 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 10:25:49 - INFO - Launching application...
+2025-11-05 10:25:49 - INFO - clicking on MyAccount--> Register
+2025-11-05 10:25:49 - INFO - Providing customer details for registration
+2025-11-05 10:25:52 - INFO - Account Registration test passed.
+2025-11-05 10:26:15 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 10:26:18 - INFO - Launching application...
+2025-11-05 10:26:18 - INFO - clicking on MyAccount--> Register
+2025-11-05 10:26:18 - INFO - Providing customer details for registration
+2025-11-05 10:26:21 - INFO - Account Registration test passed.
+2025-11-05 10:28:40 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 10:28:44 - INFO - Launching application...
+2025-11-05 10:28:44 - INFO - clicking on MyAccount--> Register
+2025-11-05 10:28:44 - INFO - Providing customer details for registration
+2025-11-05 10:28:46 - INFO - Account Registration test passed.
+2025-11-05 10:55:36 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 10:55:42 - INFO - Launching application...
+2025-11-05 10:55:42 - INFO - clicking on MyAccount--> Register
+2025-11-05 10:55:43 - INFO - Providing customer details for registration
+2025-11-05 10:55:45 - INFO - Account Registration test passed.
+2025-11-05 12:05:39 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 12:05:41 - INFO - Launching application...
+2025-11-05 12:05:41 - INFO - clicking on MyAccount--> Register
+2025-11-05 12:05:42 - INFO - Providing customer details for registration
+2025-11-05 12:05:44 - INFO - Account Registration test passed.
+2025-11-05 12:45:09 - INFO - *** Starting test_002_login ***
+2025-11-05 12:45:25 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 12:45:28 - INFO - Launching application...
+2025-11-05 12:45:28 - INFO - clicking on MyAccount--> Register
+2025-11-05 12:45:29 - INFO - Providing customer details for registration
+2025-11-05 12:45:31 - INFO - Account Registration test passed.
+2025-11-05 12:46:42 - INFO - *** Starting test_002_login ***
+2025-11-05 12:48:10 - INFO - *** Starting test_002_login ***
+2025-11-05 12:53:10 - INFO - *** Starting test_002_login ***
+2025-11-05 12:53:17 - INFO - *** End of test_002_login ***
+2025-11-05 12:55:12 - INFO - *** Starting test_002_login ***
+2025-11-05 12:55:19 - INFO - *** End of test_002_login ***
+2025-11-05 12:55:31 - INFO - ***Test_001_AccountRegistration started***
+2025-11-05 12:55:33 - INFO - Launching application...
+2025-11-05 12:55:33 - INFO - clicking on MyAccount--> Register
+2025-11-05 12:55:34 - INFO - Providing customer details for registration
+2025-11-05 12:55:36 - INFO - Account Registration test passed.
+2025-11-05 16:42:35 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 16:55:01 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:03:40 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:09:53 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:15:47 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:18:48 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:21:56 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:35:02 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:35:25 - WARNING - Logout not available after unexpected success for row3_pavanoltraining@gmail.com
+2025-11-05 17:35:39 - WARNING - Logout not available after unexpected success for row4_pavan@gmail.com
+2025-11-05 17:35:53 - WARNING - Logout not available after unexpected success for row5_pavan@gmail.com
+2025-11-05 17:35:56 - ERROR - DDT failures: 3 of 4 rows
+2025-11-05 17:35:56 - ERROR - Row 3 | email: pavanoltraining@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-05 17:35:56 - ERROR - Row 4 | email: pavan@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-05 17:35:56 - ERROR - Row 5 | email: pavan@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-05 17:39:42 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-05 17:40:04 - WARNING - Logout not available after unexpected success for row3_pavanoltraining@gmail.com
+2025-11-05 17:40:18 - WARNING - Logout not available after unexpected success for row4_pavan@gmail.com
+2025-11-05 17:40:32 - WARNING - Logout not available after unexpected success for row5_pavan@gmail.com
+2025-11-05 17:40:35 - ERROR - DDT failures: 3 of 4 rows
+2025-11-05 17:40:35 - ERROR - Row 3 | email: pavanoltraining@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-05 17:40:35 - ERROR - Row 4 | email: pavan@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-05 17:40:35 - ERROR - Row 5 | email: pavan@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-07 13:28:57 - INFO - *** Starting test_002_login ***
+2025-11-07 13:29:02 - INFO - *** End of test_002_login ***
+2025-11-07 13:29:13 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-07 13:29:34 - WARNING - Logout not available after unexpected success for row3_pavanoltraining@gmail.com
+2025-11-07 13:29:50 - WARNING - Logout not available after unexpected success for row4_pavan@gmail.com
+2025-11-07 13:30:04 - WARNING - Logout not available after unexpected success for row5_pavan@gmail.com
+2025-11-07 13:30:06 - ERROR - DDT failures: 3 of 4 rows
+2025-11-07 13:30:06 - ERROR - Row 3 | email: pavanoltraining@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-07 13:30:06 - ERROR - Row 4 | email: pavan@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-07 13:30:06 - ERROR - Row 5 | email: pavan@gmail.com | reason: Expected Invalid but login succeeded
+2025-11-07 13:30:46 - INFO - ***Test_001_AccountRegistration started***
+2025-11-07 13:30:49 - INFO - Launching application...
+2025-11-07 13:30:49 - INFO - clicking on MyAccount--> Register
+2025-11-07 13:30:49 - INFO - Providing customer details for registration
+2025-11-07 13:30:51 - INFO - Account Registration test passed.
+2025-11-07 13:35:28 - INFO - ***Test_001_AccountRegistration started***
+2025-11-07 13:35:31 - INFO - Launching application...
+2025-11-07 13:35:31 - INFO - clicking on MyAccount--> Register
+2025-11-07 13:35:32 - INFO - Providing customer details for registration
+2025-11-07 13:35:33 - INFO - Account Registration test passed.
+2025-11-07 13:38:08 - INFO - ***Test_001_AccountRegistration started***
+2025-11-07 13:38:11 - INFO - Launching application...
+2025-11-07 13:38:11 - INFO - clicking on MyAccount--> Register
+2025-11-07 13:38:11 - INFO - Providing customer details for registration
+2025-11-07 13:38:13 - INFO - Account Registration test passed.
+2025-11-07 13:44:53 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-07 13:45:14 - WARNING - Logout not available after unexpected success for row3_pavanoltraining@gmail.com
+2025-11-07 13:45:28 - WARNING - Logout not available after unexpected success for row4_pavan@gmail.com
+2025-11-07 13:45:41 - WARNING - Logout not available after unexpected success for row5_pavan@gmail.com
+2025-11-10 18:49:00 - INFO - *** Starting test_002_login ***
+2025-11-10 18:49:06 - INFO - *** End of test_002_login ***
+2025-11-10 19:02:49 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-10 19:03:12 - WARNING - Logout not available after unexpected success for row3_pavanoltraining@gmail.com
+2025-11-10 19:03:26 - WARNING - Logout not available after unexpected success for row4_pavan@gmail.com
+2025-11-10 19:03:40 - WARNING - Logout not available after unexpected success for row5_pavan@gmail.com
+2025-11-10 19:45:11 - INFO - *** Starting test_002_login ***
+2025-11-10 19:45:20 - INFO - ***Test_001_AccountRegistration started***
+2025-11-10 19:45:22 - INFO - Launching application...
+2025-11-10 19:45:22 - INFO - clicking on MyAccount--> Register
+2025-11-10 19:45:23 - INFO - Providing customer details for registration
+2025-11-10 19:45:26 - ERROR - Unexpected error during account registration.
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\PycharmProjects\WebShop\testCases\test_Accountregistration.py", line 39, in test_account_reg
+    assert "registration completed" in msg.lower()
+                                       ^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2025-11-10 19:45:51 - INFO - *** Starting test_002_login ***
+2025-11-10 19:45:56 - INFO - *** End of test_002_login ***
+2025-11-10 19:46:02 - INFO - ***Test_001_AccountRegistration started***
+2025-11-10 19:46:05 - INFO - Launching application...
+2025-11-10 19:46:05 - INFO - clicking on MyAccount--> Register
+2025-11-10 19:46:06 - INFO - Providing customer details for registration
+2025-11-10 19:46:08 - INFO - Account Registration test passed.
+2025-11-14 08:23:02 - INFO - *** Starting test_002_login ***
+2025-11-14 08:23:08 - INFO - *** End of test_002_login ***
+2025-11-14 08:23:14 - INFO - **** Starting test_003_login_Datadriven *******
+2025-11-14 08:23:36 - WARNING - Logout not available after unexpected success for row3_pavanoltraining@gmail.com
+2025-11-14 08:23:50 - WARNING - Logout not available after unexpected success for row4_pavan@gmail.com
+2025-11-14 08:24:04 - WARNING - Logout not available after unexpected success for row5_pavan@gmail.com
+2025-11-14 08:24:11 - INFO - ***Test_001_AccountRegistration started***
+2025-11-14 08:24:14 - INFO - Launching application...
+2025-11-14 08:24:14 - INFO - clicking on MyAccount--> Register
+2025-11-14 08:24:14 - INFO - Providing customer details for registration
+2025-11-14 08:24:18 - INFO - Account Registration test passed.
