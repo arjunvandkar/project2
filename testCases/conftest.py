@@ -91,7 +91,7 @@ def pytest_runtest_makereport(item, call):
         driver = item.funcargs.get("setup") or getattr(item.instance, "driver", None)
         if driver:
             test_name = rep.nodeid.replace("::", "_").replace("/", "_")
-            print(f Capturing screenshot for failed test: {test_name}")
+            print(f" Capturing screenshot for failed test: {test_name}")
             try:
                 capture_screenshot(driver, test_name)
             except Exception as e:
