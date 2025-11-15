@@ -37,7 +37,7 @@ class Test_001_AccountReg:
         msg =self.regpage.getconfirmationmsg()
         try:
             assert "registration completed" in msg.lower()
-            print("✅ Registration test passed.")
+            print(" Registration test passed.")
             self.logger.info("Account Registration test passed.")
         except AssertionError:
             self.logger.exception("Assertion failed in account registration.")
