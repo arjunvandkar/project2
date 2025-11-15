@@ -60,19 +60,19 @@ def setup(request):
             service_obj = FirefoxService(GeckoDriverManager().install())
 
         driver = webdriver.Firefox(service=service_obj, options=options)
-        print("\ Launching Firefox browser...")
+        print("Launching Firefox browser...")
 
 
     else:  # default chrome
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-        print("\ Launching Chrome browser...")
+        print("Launching Chrome browser...")
 
     driver.maximize_window()
     driver.implicitly_wait(10)
 
     yield driver  # provide driver to tests
 
-    print("\n Closing browser...")
+    print(" Closing browser...")
     driver.quit()
 
 
