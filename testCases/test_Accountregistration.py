@@ -1,4 +1,4 @@
-    import pytest
+import pytest
 from webdriver_manager.core import driver
 
 from utilities.randomStringGenerator import random_email
