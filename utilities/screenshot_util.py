@@ -9,7 +9,7 @@ def capture_screenshot(driver: WebDriver, test_name: str):
     """
     try:
         if not driver:
-            print("⚠️ capture_screenshot called with no driver (None).")
+            print(" capture_screenshot called with no driver (None).")
             return
 
         # Build screenshots folder at project root (one level above utilities/)
@@ -24,7 +24,7 @@ def capture_screenshot(driver: WebDriver, test_name: str):
         file_path = os.path.join(screenshots_dir, file_name)
 
         driver.save_screenshot(file_path)
-        print(f"📸 Screenshot saved: {file_path}")
+        print(f" Screenshot saved: {file_path}")
     except Exception as e:
         # Never raise from screenshot capture — just log
-        print(f"❌ Failed to capture screenshot: {e}")
+        print(f" Failed to capture screenshot: {e}")
