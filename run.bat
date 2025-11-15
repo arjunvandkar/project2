@@ -1,1 +1,1 @@
-pytest -v -s .\testCases -m "sanity"
+python -m pytest -v -s .\testCases -m "sanity"
