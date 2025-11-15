@@ -46,7 +46,7 @@ def setup(request):
             service_obj = EdgeService(EdgeChromiumDriverManager().install())
 
         driver = webdriver.Edge(service=service_obj, options=options)
-        print("\n🚀 Launching Edge browser...")
+        print(" Launching Edge browser...")
 
     elif browser == "firefox":
         options = webdriver.FirefoxOptions()
@@ -60,19 +60,19 @@ def setup(request):
             service_obj = FirefoxService(GeckoDriverManager().install())
 
         driver = webdriver.Firefox(service=service_obj, options=options)
-        print("\n🚀 Launching Firefox browser...")
+        print("\ Launching Firefox browser...")
 
 
     else:  # default chrome
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-        print("\n🚀 Launching Chrome browser...")
+        print("\ Launching Chrome browser...")
 
     driver.maximize_window()
     driver.implicitly_wait(10)
 
     yield driver  # provide driver to tests
 
-    print("\n🧹 Closing browser...")
+    print("\n Closing browser...")
     driver.quit()
 
 
@@ -91,13 +91,13 @@ def pytest_runtest_makereport(item, call):
         driver = item.funcargs.get("setup") or getattr(item.instance, "driver", None)
         if driver:
             test_name = rep.nodeid.replace("::", "_").replace("/", "_")
-            print(f"📸 Capturing screenshot for failed test: {test_name}")
+            print(f Capturing screenshot for failed test: {test_name}")
             try:
                 capture_screenshot(driver, test_name)
             except Exception as e:
-                print(f"❌ capture_screenshot raised exception: {e}")
+                print(f" capture_screenshot raised exception: {e}")
         else:
-            print("⚠️ No WebDriver instance found for screenshot capture.")
+            print("No WebDriver instance found for screenshot capture.")
 
 ########### Pytest HTML Report ###########
 import os
